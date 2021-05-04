@@ -1,0 +1,8 @@
+.main-header {
+    background-color: #00000050;
+    background-image: url("Images/about-band-sabaton-header-1920x680.jpg");
+    background-blend-mode: ;
+	background-size: cover;
+    background-position: top;
+    padding-bottom: 10em;
+}

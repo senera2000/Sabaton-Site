@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karantina&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Open+Sans&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+   
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-cover {
+    background-image: url("Images/Website-slider-image-new.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    font-family: 'New Rocker', cursive;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.main-nav li {
+    padding: 0 5%;
+    font-family: 'New Rocker', cursive;
+}
+
+
+.nav a:hover {
+    color:rgb(255, 208, 0);
+}
+
+.main-header {
+    background-color: #000000CC;
+    background-blend-mode: multiply;
+	background-size: cover;
+    background-position: top;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'New Rocker', cursive;
+    font-weight: normal;
+    color: goldenrod;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.content-section {
+    margin: 1em auto 1em auto;
+    padding-top: 10px;
+    background-color: #000000AB;
+    background-blend-mode: multiply;
+	background-size: cover;
+}
+
+
+.section-header {
+    font-family: 'New Rocker', cursive;
+    font-weight: normal;
+    color: goldenrod;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-cover {
+    background-image: url("Images/about-band-sabaton-header-1920x680.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-band-image {
+    float: left;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.footer-image {
+    min-height: 132px;
+    min-width: 260px;
+    padding: 0 auto;
+    margin-top: -2em;
+}
+
+.header-image {
+    margin-top: 1em;
+    max-height: 80px;
+    min-height: 16px;
+    padding: 0 auto
+}
+
+.main-footer {
+    background-color: rgb(0, 0, 0);
+    color: goldenrod;
+    padding: .25em 0;
+    margin-top: 2em;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.top-main-footer {
+    background-color: rgb(27, 27, 27);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+}
+
+.top-main-footer p {
+    color: transparent;
+    margin: 0;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .66em;
+    cursor: pointer;
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    font-family: 'New Rocker', cursive;
+}
+
+.btn:hover {
+    background-color: black;
+    color: goldenrod;
+}
+
+.btn-header {
+    margin: 3em auto 2em auto;
+    font-size: 1.3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px;
+    display: block;
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    font-size: 3em;
+}
+
+.tour-row {
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: .8em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    padding-right: .5em;
+    display: inline-block;
+}
+
+.tour-date {
+    font-weight: bold;
+    width: 15%;
+}
+
+.tour-city {
+    width: 22%;
+    font-family: 'New Rocker', cursive;
+}
+
+.tour-arena {
+    width: 36%;
+}
+
+.tour-btn {
+    max-width: 20%;
+    align-items: right;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    
+}
+
+.shop-item-details {
+    display: flex; 
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.btn-danger {
+    color: whitesmoke;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+    color: whitesmoke;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 2px solid goldenrod;
+    background-color: black;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    font-size: 1.2em;
+    
+}
+
+.btn-purchase {
+    display: block;
+    margin: 20px 0 30px auto;
+    font-size: 1.8em;
+    
+}
+
+.store-cover {
+    background-image: url("Images/shop_bg.jpg");
+    background-size: auto;
+    
+}
+
+.content-section:last-child {
+    padding-bottom: 10px;
+}
