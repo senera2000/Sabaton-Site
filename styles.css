@@ -119,6 +119,15 @@ html, body {
     margin-top: -2em;
 }
 
+.footer-link-logo {
+    height: 40px
+}
+
+.footer-link-logo:hover {
+    
+    height: 38px;
+}
+
 .header-image {
     margin-top: 1em;
     max-height: 80px;
@@ -155,6 +164,13 @@ html, body {
 
 .footer-nav li {
     padding: 0 .5em;
+}
+
+.footer-nav {
+    vertical-align: middle;
+    align-content: center;
+    display: inline-block;
+    height: 100%;
 }
 
 .btn {
